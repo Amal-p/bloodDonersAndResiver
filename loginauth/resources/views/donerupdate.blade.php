@@ -9,7 +9,7 @@
 <!------ Include the above in your HEAD tag ---------->
 
 <!--css on public folder-->
-<link rel="stylesheet" href="{{asset('css/app.css')}}">
+<link rel="stylesheet" href="{{secure_asset('css/app.css')}}">
 
 
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -74,7 +74,7 @@
                     <div class="form-group">
 						<label>Id Proof</label>
                         <br>
-                        <a href="{{asset('uploads/image/'.$doner->id_proof)}}"><img class="card-img-top" style="height: 300px; width:300px" src="{{asset('uploads/image/'.$doner->id_proof)}}" alt="Id Proof"></a>
+                        <a href="{{secure_asset('uploads/image/'.$doner->id_proof)}}"><img class="card-img-top" style="height: 300px; width:300px" src="{{asset('uploads/image/'.$doner->id_proof)}}" alt="Id Proof"></a>
                         <br>
 						<input type="file" name="id_proof" class="form-control">
 					</div>

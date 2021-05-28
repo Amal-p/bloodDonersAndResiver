@@ -19,7 +19,7 @@
 </style>
 
 <!--css on public folder-->
-<link rel="stylesheet" href="{{asset('css/Resiver/resiverregister.css')}}">
+<link rel="stylesheet" href="{{secure_asset('css/Resiver/resiverregister.css')}}">
 
 <!-- Custom Theme files -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />

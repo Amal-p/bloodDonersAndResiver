@@ -9,7 +9,7 @@
 <!------ Include the above in your HEAD tag ---------->
 
 <!--css on public folder-->
-<link rel="stylesheet" href="{{asset('css/app.css')}}">
+<link rel="stylesheet" href="{{secure_asset('css/app.css')}}">
 
 
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
