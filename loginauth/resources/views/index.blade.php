@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <!--fontawesome-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Blood Doner and resiver</title>
+    <title>Blood Donners</title>
 </head>
 <body>
 
@@ -120,143 +120,127 @@
       </section>
 
 
-      <!--Footer-->
-
       <!-- Footer -->
-<footer class="page-footer font-small bg-dark pt-4">
+<footer class="page-footer font-small indigo">
 
     <!-- Footer Links -->
-    <div class="container text-center text-md-left">
+    <div class="container">
   
-      <!-- Footer links -->
-      <div class="row text-center text-md-left mt-3 pb-3">
+      <!-- Grid row-->
+      <div class="row text-center d-flex justify-content-center pt-5 mb-3">
   
         <!-- Grid column -->
-        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-              when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#!">Dummy Link</a>
+          </h6>
         </div>
         <!-- Grid column -->
   
-        <hr class="w-100 clearfix d-md-none">
-  
         <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
-          <p>
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
             <a href="#!">Dummy Link</a>
-          </p>
-          <p>
-            <a href="#!">Dummy Link</a>
-          </p>
-          <p>
-            <a href="#!">Dummy Link</a>
-          </p>
-          <p>
-            <a href="#!">Dummy Link</a>
-          </p>
+          </h6>
         </div>
         <!-- Grid column -->
   
-        <hr class="w-100 clearfix d-md-none">
-  
         <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
-          <p>
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
             <a href="#!">Dummy Link</a>
-          </p>
-          <p>
-            <a href="#!">Dummy Link</a>
-          </p>
-          <p>
-            <a href="#!">Dummy Link</a>
-          </p>
-          <p>
-            <a href="#!">Dummy Link</a>
-          </p>
+          </h6>
         </div>
+        <!-- Grid column -->
   
         <!-- Grid column -->
-        <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#!">Dummy Link</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
   
         <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-          <p>
-            <i class="fas fa-home mr-3"></i> Abc Defg, NY 10012, INDIA</p>
-          <p>
-            <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-          <p>
-            <i class="fas fa-phone mr-3"></i> + 91 000 000 00</p>
-          <p>
-            <i class="fas fa-print mr-3"></i> + 91 000 000 00</p>
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#!">Dummy Link</a>
+          </h6>
         </div>
         <!-- Grid column -->
   
       </div>
-      <!-- Footer links -->
+      <!-- Grid row-->
+      <hr class="rgba-white-light" style="margin: 0 15%;">
   
-      <hr>
-  
-      <!-- Grid row -->
-      <div class="row d-flex align-items-center">
+      <!-- Grid row-->
+      <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
   
         <!-- Grid column -->
-        <div class="col-md-7 col-lg-8">
-  
-          <!--Copyright-->
-          <p class="text-center text-md-left">© 2021 Copyright:
-            <a href="">
-              <strong>Amal P</strong>
-            </a>
-          </p>
-  
+        <div class="col-md-8 col-12 mt-5">
+          <p style="line-height: 1.7rem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div>
         <!-- Grid column -->
   
-        <!-- Grid column -->
-        <div class="col-md-5 col-lg-4 ml-lg-0">
+      </div>
+      <!-- Grid row-->
+      <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
   
-          <!-- Social buttons -->
-          <div class="text-center text-md-right">
-            <ul class="list-unstyled list-inline">
-              <li class="list-inline-item">
-                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                  <i class="fab fa-google-plus-g"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
+      <!-- Grid row-->
+      <div class="row pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-12">
+  
+          <div class="mb-5 flex-center">
+  
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g fa-lg white-text mr-4"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
+            </a>
+            <!--Pinterest-->
+            <a class="pin-ic">
+              <i class="fab fa-pinterest fa-lg white-text"> </i>
+            </a>
+  
           </div>
   
         </div>
         <!-- Grid column -->
   
       </div>
-      <!-- Grid row -->
+      <!-- Grid row-->
   
     </div>
     <!-- Footer Links -->
   
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+      <a href="/"> Amal P</a>
+    </div>
+    <!-- Copyright -->
+  
   </footer>
   <!-- Footer -->
+
 
    
    <!--Script for bootstrap-->
