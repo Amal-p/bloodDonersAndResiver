@@ -40,8 +40,8 @@
               <!-- Login Form -->
               <form action="/adminlogin" method="POST">
                 @csrf
-                <input type="text" id="login" class="fadeIn second" name="email" placeholder="Email">
-                <input type="text" id="password" class="fadeIn third" name="password" placeholder="Password">
+                <input type="text" id="login" class="fadeIn second" name="email" placeholder="Email" required>
+                <input type="text" id="password" class="fadeIn third" name="password" placeholder="Password" required>
                 <input type="submit" class="fadeIn fourth" value="Log In">
               </form>
           
