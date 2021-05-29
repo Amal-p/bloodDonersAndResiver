@@ -41,7 +41,7 @@
                         </div>
                         <!--DropDown-->
     
-                        <div class="input-group mb-3"> <input type="text" name="searchkey" class="form-control" placeholder="Blood Group OR Mobile...">
+                        <div class="input-group mb-3"> <input type="text" name="searchkey" class="form-control" placeholder="Blood Group(Full capital AB-) OR Mobile...">
                             <div class="input-group-append"><button class="btn btn-primary"><i class="fas fa-search"></i></button></div>
 
                             

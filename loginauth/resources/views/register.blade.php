@@ -44,7 +44,7 @@
 							</div>
                             <div class="col-sm-6 form-group">
 								<label>Blood Group</label>
-								<input type="text" name="blood_group" placeholder="Enter Blood Group Here.." class="form-control" required>
+								<input type="text" name="blood_group" placeholder="Enter Blood Group Here Full capital Eg : AB-.." class="form-control" required>
 							</div>
 						</div>						
 						<div class="row">
