@@ -69,7 +69,7 @@
                           Verification pending
                       @endif
                   </td>
-                  <td><a href="{{secure_asset('uploads/image/'.$doner->id_proof)}}"><img id="" src="{{secure_asset('uploads/image/'.$doner->id_proof)}}" alt="Id Proof" style="width:100px;max-width:300px"></a></td>
+                  <td><a href="{{URL::asset('uploads/image/'.$doner->id_proof)}}"><img id="" src="{{URL::asset('uploads/image/'.$doner->id_proof)}}" alt="Id Proof" style="width:100px;max-width:300px"></a></td>
                   <td>
                       @if ($doner->verify)
                           <a href="/verifydoner/{{$doner->id}}"  class="btn btn-secondary mt-2 disabled">Verify</a>
