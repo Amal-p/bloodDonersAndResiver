@@ -68,7 +68,7 @@
             <div class="row d-flex justify-content-center">
                 @foreach ($doners as $doner)
                 <div class="card col-md-4 ml-5 mt-2 card-details" style="width: 18rem;">
-                    <a href="{{asset('uploads/image/'.$doner->id_proof)}}"><img class="card-img-top" src="{{asset('uploads/image/'.$doner->id_proof)}}" alt="Id Proof"></a>
+                    <a href="{{asset('uploads/image/'.$doner->id_proof)}}"><img class="card-img-top" src="{{secure_asset('uploads/image/'.$doner->id_proof)}}" alt="Id Proof"></a>
                     <div class="card-body">
                       <h5 class="card-title">{{$doner->name}}</h5>
                       <p class="card-text">Age : {{$doner->age}}</p>
