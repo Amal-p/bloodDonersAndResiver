@@ -223,7 +223,29 @@ class donerData extends Controller
 
     function showAllDonerNotVerify(Request $request){
         $doners = Doner::where('verify',0)->get();
-        return view('donerfulllist', compact('doners'));
+        return view('donernotferifyfulllist', compact('doners'));
+    }
+
+    function verifyNotverifyDoner(Request $request){
+        $id = $request -> id;
+        $doner = Doner::find($id);
+        $doner->verify = true;
+        $doner->save();
+        return redirect('/showalldonernotverify');
+    }
+
+    function deleteNonVerifyFromList(Request $request){
+        $id = $request -> id;
+        $file = $request->file('id_proof');
+        $doner = Doner::find($id);
+        File::delete('uploads/image/'.$doner->id_proof);
+        $result = $doner->delete();
+        if($result){
+            return redirect('/showalldonernotverify')->with('message', 'Record Deleted');
+        }
+        else{
+            return redirect('/showalldonernotverify')->with('message', 'Record Not Delete');
+        }
     }
 }
 

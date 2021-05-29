@@ -60,11 +60,15 @@ Route::group(['middleware'=>'AdminCheck'], function(){
 
     Route::get('/verify/{id}', [donerData::class, 'verify']);
 
+    Route::get('/verifydoner/{id}', [donerData::class, 'verifyNotverifyDoner']);
+
     Route::get('/updatelist/{id}', [donerData::class, 'updateFromList']);
 
     Route::put('/updatelistsave/{id}', [donerData::class, 'updateFromListSave']);
 
     Route::get('/deletelist/{id}', [donerData::class, 'deleteFromList']);
+
+    Route::get('/deletelistdoner/{id}', [donerData::class, 'deleteNonVerifyFromList']);
 
     Route::get('/showallreceiver', [resiverController::class, 'showData']);
 
