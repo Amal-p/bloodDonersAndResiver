@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <!--fontawesome-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Blood</title>
+    <title>Blood Doner and resiver</title>
 </head>
 <body>
 
@@ -123,7 +123,7 @@
       <!--Footer-->
 
       <!-- Footer -->
-<footer class="page-footer font-small mdb-color pt-4">
+<footer class="page-footer font-small bg-dark pt-4">
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
